@@ -2,9 +2,10 @@
 	"name": "qtip2",
 	"version": "2.2.0",
 	"description": "Introducing... qTip2. The second generation of the advanced qTip plugin for the ever popular jQuery framework.",
-	"main": "imagesloaded.js",
-	"ignore": [
-		"dist/**/.js"
+	"main": [
+		"imagesloaded.pkg.min.js",
+		"query.qtip.min.css",
+		"jquery.qtip.min.js"
 	],
 	"dependencies": {
 		"jquery": ">=1.6.0",
